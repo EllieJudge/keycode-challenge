@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Keycode Generator</h1>
+    <h2>Enter a key to see the event keycode</h2>
+    <input type = "text" onkeypress="keyCode(), eventCode(), eventWhich()">
+    
+    <p id="codeKey">event.key:</p>
+    <p id="codeKeyChange">.</p>
+
+
+    <p id="eventCode">event.code:</p>
+    <p id="eventCodeChange">.</p>
+
+
+    <p id="eventWhich">event.which</p>
+    <p id="eventWhichChange">.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
